@@ -1,0 +1,26 @@
+To run this Python program, you'll need the following packages:
+
+1. OpenCV: This is a library of programming functions mainly aimed at real-time computer vision.
+
+2. NumPy: This is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+
+Here are the steps to install these packages using Anaconda:
+
+1. Open the Anaconda Prompt. You can do this by searching for "Anaconda Prompt" in your system's search bar.
+
+2. Install the packages by typing the following commands and pressing Enter after each one:
+
+   - To install OpenCV: 
+     ```
+     conda install -c conda-forge opencv
+     ```
+   - To install NumPy:
+     ```
+     conda install numpy
+     ```
+
+The `-c conda-forge` option tells Conda to install the packages from the conda-forge channel, which is a community-led collection of packages. It's often more up to date than the default channel.
+
+Other than these, your Python environment should already have the other libraries used in this program (`time`, `datetime`, and `os`) as they are part of Python's standard library.
+
+Please note that using OpenCV to interact with a webcam may not work on some cloud-based environments (like Google Colab or Jupyter notebook run through a cloud service), so ensure that you are running this on your local machine.
